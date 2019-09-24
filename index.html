@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HTML 5 Doc</title>
+<style>
+	body,html {	
+	padding: 0;
+	margin: 0;
+	background-color: #a2a2a2;
+	}
+	header h1 { 
+	text-align:center;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 60px;
+	text-shadow: 3px 3px 3px #000000;
+	}
+	header {
+	background-color: #9f9898;
+	color: #fff;
+	padding: 5px 40px;
+	width: 100%;
+	box-sizing: border-box;
+	}
+	h2 { 
+	text-align:center;
+	font-family: cursive;
+	font-size: 40px;
+	}
+	h3 { 
+	font-family: cursive;
+	font-size: 30px;
+	padding: 0 10px;
+	}
+	p {	
+	font-family: 'arial narrow';
+	font-size: 20px;
+	color: #000000;
+	padding: 0 10px;
+	}
+	a {	
+	font-family: 'arial narrow';
+	font-size: 18px;
+	text-decoration: underline;
+	padding: 0 10px;
+	}
+	nav { 
+	background-color: #e95bf6;
+	padding: 15px 0;
+	font-family: "arial narrow";
+	}
+	nav a {
+	color: #000000;
+	font-size: 22px;
+	text-decoration: none;
+	}
+	nav ul {	
+	list-style-type:none;
+	text-align: center;
+	}
+	nav ul li {	
+	display: inline-block;
+	width: 270px;
+	text-align: center;
+	box-sizing: border-box;
+	}
+	li {
+	padding: 0 10px;
+	}
+	li a {
+	padding: 20px 20px;
+	}
+	input.search_tab {
+	font-family: 'arial narrow';
+	font-size: 16px;
+	width: 140px;
+	height: 30px;
+	}
+	input.go_button {
+	font-family: 'arial narrow';
+	color: #FFFFFF;
+	font-size: 16px;
+	background-color: #292525;
+	width: 100px;
+	height: 30px;
+	}
+	.container {	
+	width: 100%;
+	background-color: #a2a2a2;
+	position: relative;
+    	}
+	.article {
+	float: left;
+	background-color: #FFFFFF;
+    	padding: 10px 20px;
+	margin: 10px 0;
+    	width: 1130px;
+    	height: 650px;
+    	}
+	.sidebar {
+	float: right;
+	background-color: #e95bf6;
+    	width: 300px;
+    	height: 670px;
+    	margin: 10px 0px;
+	padding-left: 20px;
+    	}
+	.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	background-color: #FFFFFF;
+	width: 100%;
+	height: 50px;
+	}
+</style>
+</head>
+
+<body>
+
+	<header><h1>Header</h1></header>
+	<nav><ul>
+	<li><a href="#">HOME</a></li>
+	<li><a href="#">OUR TEAM</a></li>
+	<li><a href="#">PROJECTS</a></li>
+	<li><a href="#">CONTACT</a></li>
+	<li><form>
+	<input class ='search_tab' type ='text' name='search_tab' placeholder ="Search query">
+	<input class ='go_button' type='submit' name ='go_button' value = "Go!">
+	</form></li></ul></nav>
+
+	<div class = "container">
+	<div class = "article">
+	<h2>Article heading</h2>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Tempor nec feugiat nisl
+		pretium fusce id. Vulputate mi sit amet mauris commodo quis. Euismod in
+		pellentesque massa placerat duis ultricies. Amet est placerat in egestas
+		erat. Proin sed libero enim sed. Nec tincidunt praesent semper feugiat nibh.
+	<h3>subsection</h3>
+	<p>Diam volutpat commodo sed egestas egestas. Morbi tristique senectus et
+		netus et. Eget gravida cum sociis natoque penatibus et magnis dis
+		parturient. Enim blandit volutpat maecenas volutpat. Sed ullamcorper morbi
+		tincidunt ornare massa eget egestas. Diam vel quam elementum pulvinar etiam
+		non. Auctor augue mauris augue neque gravida. Vitae elementum curabitur
+		vitae nunc. Augue mauris augue neque gravida in fermentum et.
+	<h3>Another subsection</h3>
+	<p>Ac tortor dignissim convallis aenean et tortor at. Eget nunc lobortis
+		mattis aliquam faucibus. Volutpat commodo sed egestas egestas fringilla
+		phasellus. Neque sodales ut etiam sit.Tortor aliquam nulla facilisi cras.
+		Condimentum vitae sapien pellentesque habitant. Neque volutpat ac tincidunt
+		vitae semper quis.
+	<p>Morbi quis commodo odio aenean sed adipiscing. Faucibus nisl tincidunt
+		eget nullam non nisi est sit. Leo in vitae turpis massa sed elementum.
+		Integer quis auctor elit sed vulputate mi sit amet mauris. Sit amet nulla
+		facilisi morbi tempus iaculis urna. Egestas pretium aenean pharetra magna
+		ac placerat vestibulum.
+	</div>
+
+	<div class='sidebar'>
+	<h2>Related</h2>
+	<li><a href="#">Oh I do like to be beside the seaside</a></li>
+	<li><a href="#">Oh I do like to be beside the sea</a></li>
+	<li><a href="#">Although in the North of England</a></li>
+	<li><a href="#">It never stops raining</a></li>
+	<li><a href="#">Oh well...</a></li>
+	</div></div>
+
+	<div class='footer'>
+	<p>©Copyright 2050 by nobody. All rights reversed.</div>
+
+</body>
+</html>
